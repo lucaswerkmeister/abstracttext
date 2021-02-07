@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# In monolingual text objects, replace language object references with language codes.
+
+for file in eneyj/data/Z*.json; do
+    jq '
+      (
+        ..
+        | .Z11K1?
+        | select(.)
+      ) |= (
+        {
+          Z251: "en",
+          Z254: "de",
+        }[.]
+      )
+    ' "$file" \
+        | sponge "$file";
+done

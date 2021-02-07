@@ -13,12 +13,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "string_value"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Zeichenkettenwert"
             }
           ]
@@ -28,12 +28,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "the string value"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "der String"
             }
           ]
@@ -49,12 +49,12 @@
     "Z12K1": [
       {
         "Z1K1": "Z11",
-        "Z11K1": "Z251",
+        "Z11K1": "en",
         "Z11K2": "string"
       },
       {
         "Z1K1": "Z11",
-        "Z11K1": "Z254",
+        "Z11K1": "de",
         "Z11K2": "Zeichenkette"
       }
     ]

@@ -13,12 +13,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "typename"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Typenname"
             }
           ]
@@ -28,12 +28,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "a unique name for the type"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "ein eindeutiger Name fuer den Typ"
             }
           ]
@@ -49,12 +49,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "keys"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Schluessel"
             }
           ]
@@ -64,12 +64,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "the slots for values on this type"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "die Wertefelder"
             }
           ]
@@ -84,12 +84,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "validators"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Validatoren"
             }
           ]
@@ -99,12 +99,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "checks a value for correctness"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "prueft einen Wert"
             }
           ]
@@ -119,12 +119,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "linearizer"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Linearisierer"
             }
           ]
@@ -134,12 +134,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "turns a value into a string"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "erzeugt eine leicht lesbare Form"
             }
           ]
@@ -155,12 +155,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "coercions"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Umwandler"
             }
           ]
@@ -170,12 +170,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "implicit casting"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "automatische Umwandler"
             }
           ]
@@ -190,12 +190,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "evaluator"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Berechner"
             }
           ]
@@ -205,12 +205,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "what to use to evaluate this"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "womit dies zu evaluieren ist"
             }
           ]
@@ -225,12 +225,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "possible_values"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "moegliche_Werte"
             }
           ]
@@ -240,12 +240,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "the set of possible values for this type"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "die Menge der moeglichen Werte"
             }
           ]
@@ -260,12 +260,12 @@
     "Z12K1": [
       {
         "Z1K1": "Z11",
-        "Z11K1": "Z251",
+        "Z11K1": "en",
         "Z11K2": "type"
       },
       {
         "Z1K1": "Z11",
-        "Z11K1": "Z254",
+        "Z11K1": "de",
         "Z11K2": "Typ"
       }
     ]

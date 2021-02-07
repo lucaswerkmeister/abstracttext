@@ -13,12 +13,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "language"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Programmiersprache"
             }
           ]
@@ -28,12 +28,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "the programming language of this code"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "die Programmiersprache dieser Implementation"
             }
           ]
@@ -47,12 +47,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "source"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Quelltext"
             }
           ]
@@ -62,12 +62,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "the instructions as text"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "die Anweisungen"
             }
           ]
@@ -81,12 +81,12 @@
     "Z12K1": [
       {
         "Z1K1": "Z11",
-        "Z11K1": "Z251",
+        "Z11K1": "en",
         "Z11K2": "code"
       },
       {
         "Z1K1": "Z11",
-        "Z11K1": "Z254",
+        "Z11K1": "de",
         "Z11K2": "Code"
       }
     ]

@@ -13,12 +13,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "type"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Typ"
             }
           ]
@@ -28,12 +28,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "type the value has to be"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Typ des Werts"
             }
           ]
@@ -47,12 +47,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "validators"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Validatoren"
             }
           ]
@@ -62,12 +62,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "validators the value has to pass"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Validatoren fuer den Wert"
             }
           ]
@@ -81,12 +81,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "required"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "notwendig"
             }
           ]
@@ -100,12 +100,12 @@
     "Z12K1": [
       {
         "Z1K1": "Z11",
-        "Z11K1": "Z251",
+        "Z11K1": "en",
         "Z11K2": "key"
       },
       {
         "Z1K1": "Z11",
-        "Z11K1": "Z254",
+        "Z11K1": "de",
         "Z11K2": "Schluessel"
       }
     ]

@@ -13,12 +13,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "reference_ID"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "Verweiswert"
             }
           ]
@@ -28,12 +28,12 @@
           "Z12K1": [
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z251",
+              "Z11K1": "en",
               "Z11K2": "ID of the entity this refers to"
             },
             {
               "Z1K1": "Z11",
-              "Z11K1": "Z254",
+              "Z11K1": "de",
               "Z11K2": "die ID der zu verweisenden Entitaet"
             }
           ]
@@ -47,12 +47,12 @@
     "Z12K1": [
       {
         "Z1K1": "Z11",
-        "Z11K1": "Z251",
+        "Z11K1": "en",
         "Z11K2": "reference"
       },
       {
         "Z1K1": "Z11",
-        "Z11K1": "Z254",
+        "Z11K1": "de",
         "Z11K2": "Verweis"
       }
     ]
