@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Temporarily add Z1K2 IDs back to function objects inside persistent objects.
+# This is needed until GraalEneyj learns to read the IDs from elsewhere.
+
+for file in eneyj/data/Z*.json; do
+    jq '
+      if .Z2K2.Z1K1 == "Z8"
+      then .Z2K2.Z1K2 = .Z2K1
+      else .
+      end
+    ' "$file" \
+        | sponge "$file";
+done
