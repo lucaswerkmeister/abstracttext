@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# Migrate all objects to the Z2/persistent object type –
+# ID into Z2K1, labels into Z2K3, the rest of the object into Z2K2
+# (except for description/alias/documentation, which are discarded).
+# Note that this doesn’t touch the contents of nested objects yet
+# (e.g. Z1K2/id in parameters or implementations).
+
+for file in eneyj/data/Z*.json; do
+    jq '{
+      Z1K1: "Z2",
+      Z2K1: .Z1K2,
+      Z2K2: with_entries(
+        select(
+          .key != "Z1K2"
+          and .key != "Z1K3"
+          and .key != "Z1K4"
+          and .key != "Z1K5"
+          and .key != "Z1K6"
+        )
+      ),
+      Z2K3: (.Z1K3 // "marker for missing label"),
+    } | with_entries(
+      select(
+        .key != "Z2K3"
+        or .value != "marker for missing label"
+      )
+    )' "$file" \
+        | sponge "$file";
+done
