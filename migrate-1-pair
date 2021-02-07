@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Change the “pair” type from Z2 to Z22,
+# to free up Z2 for the new “persistent object” type
+# (curiously enough, Z22 was already free in the old model).
+
+sed -i 's/"Z2\(["K]\)/"Z22\1/g' eneyj/data/Z*.json
+mv eneyj/data/Z2.json eneyj/data/Z22.json
