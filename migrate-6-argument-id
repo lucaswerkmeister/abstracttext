@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# In argument declarations of functions, move the ID from Z1K2 to Z17K2.
+
+for file in eneyj/data/Z*.json; do
+    jq '
+      (
+        .Z2K2
+        | select(.Z1K1 == "Z8")
+        | .Z8K1
+        | .[]
+      ) |= (
+        .Z17K2 = .Z1K2
+        | del(.Z1K2)
+      )
+    ' "$file" \
+        | sponge "$file";
+done
