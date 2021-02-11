@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# In functions, move the ID from Z1K2 to Z8K5.
+
+for file in eneyj/data/Z*.json; do
+    jq '
+      (
+        .Z2K2
+        | select(.Z1K1 == "Z8")
+      ) |= (
+        .Z8K5 = .Z1K2
+        | del(.Z1K2)
+      )
+    ' "$file" \
+        | sponge "$file";
+done
