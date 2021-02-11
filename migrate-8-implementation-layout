@@ -1,0 +1,46 @@
+#!/bin/sh
+
+# In implementations of functions, remove the interstitial Z19 object,
+# replacing it with Z14K2..4,
+# and add the ID of the function being implemented as the new Z14K1.
+
+for file in eneyj/data/Z*.json; do
+    id=${file#eneyj/data/}
+    id=${id%.json}
+    jq '
+      (
+        .Z2K2
+        | select(.Z1K1 == "Z8")
+        | .Z8K4
+        | .[]
+      ) |= (
+        if (.Z14K1 | type) == "object"
+        then
+          if .Z14K1.Z1K1 == "Z19"
+          then { Z1K1, Z1K2, Z14K4: "anonymous builtin of '"$id"'" }
+          else
+            if .Z14K1.Z1K1 == "Z16"
+            then { Z1K1, Z1K2, Z14K3: .Z14K1 }
+            else
+              if .Z14K1.Z1K1 == "Z7"
+              then { Z1K1, Z1K2, Z14K2: .Z14K1 }
+              else { Z1K1, Z1K2, Z14K5: .Z14K1 }
+              end
+            end
+          end
+        else { Z1K1, Z1K2, Z14K5: .Z14K1 }
+        end
+      )
+    ' "$file" \
+       | jq '
+          (
+            .Z2K2
+            | select(.Z1K1 == "Z8")
+            | .Z8K4
+            | .[]
+          ) |= (
+            .Z14K1 = "'"$id"'"
+          )
+        ' \
+            | sponge "$file";
+done
