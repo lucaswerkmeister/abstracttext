@@ -1,0 +1,23 @@
+#!/bin/sh
+
+# Move IDs Z40/Z41/Z42 to Z10040/Z10041/Z10042,
+# then move the “boolean” type from Z50 to Z40
+# and the singletons “true” and “false” from Z54/Z55 to Z41/Z42.
+
+sed -i '
+  s/"Z40\(["K]\)/"Z10040\1/g;
+  s/"Z41\(["K]\)/"Z10041\1/g;
+  s/"Z42\(["K]\)/"Z10042\1/g;
+' eneyj/data/Z*.json
+mv eneyj/data/Z40.json eneyj/data/Z10040.json
+mv eneyj/data/Z41.json eneyj/data/Z10041.json
+mv eneyj/data/Z42.json eneyj/data/Z10042.json
+
+sed -i '
+  s/"Z50\(["K]\)/"Z40\1/g;
+  s/"Z54\(["K]\)/"Z41\1/g;
+  s/"Z55\(["K]\)/"Z42\1/g;
+' eneyj/data/Z*.json
+mv eneyj/data/Z50.json eneyj/data/Z40.json
+mv eneyj/data/Z54.json eneyj/data/Z41.json
+mv eneyj/data/Z55.json eneyj/data/Z42.json

@@ -14,85 +14,17 @@
             {
               "Z1K1": "Z11",
               "Z11K1": "en",
-              "Z11K2": "arguments"
-            }
-          ]
-        },
-        "Z3K1": "Z70",
-        "Z3K3": "Z54"
-      },
-      {
-        "Z1K1": "Z3",
-        "Z1K2": "Z40K2",
-        "Z1K3": {
-          "Z1K1": "Z12",
-          "Z12K1": [
-            {
-              "Z1K1": "Z11",
-              "Z11K1": "en",
-              "Z11K2": "implementations"
-            },
-            {
-              "Z1K1": "Z11",
-              "Z11K1": "de",
-              "Z11K2": "Implementierungen"
-            }
-          ]
-        },
-        "Z1K4": {
-          "Z1K1": "Z12",
-          "Z12K1": [
-            {
-              "Z1K1": "Z11",
-              "Z11K1": "en",
-              "Z11K2": "code that fulfills the contract of this function"
-            },
-            {
-              "Z1K1": "Z11",
-              "Z11K1": "de",
-              "Z11K2": "Code der diese Funktion erfuellt"
-            }
-          ]
-        },
-        "Z3K3": "Z54"
-      },
-      {
-        "Z1K1": "Z3",
-        "Z1K2": "Z40K3",
-        "Z1K3": {
-          "Z1K1": "Z12",
-          "Z12K1": [
-            {
-              "Z1K1": "Z11",
-              "Z11K1": "en",
-              "Z11K2": "tests"
-            },
-            {
-              "Z1K1": "Z11",
-              "Z11K1": "de",
-              "Z11K2": "Tests"
-            }
-          ]
-        },
-        "Z1K4": {
-          "Z1K1": "Z12",
-          "Z12K1": [
-            {
-              "Z1K1": "Z11",
-              "Z11K1": "en",
-              "Z11K2": "pairs of input/output pairs"
-            },
-            {
-              "Z1K1": "Z11",
-              "Z11K1": "de",
-              "Z11K2": "Ein- und Ausgabepaare welche die Funktion erfuellen muss"
+              "Z11K2": "identity"
             }
           ]
         }
       }
     ],
-    "Z4K4": "Z185",
-    "Z4K6": "Z39"
+    "Z4K4": "Z607",
+    "Z4K7": [
+      "Z41",
+      "Z42"
+    ]
   },
   "Z2K3": {
     "Z1K1": "Z12",
@@ -100,12 +32,12 @@
       {
         "Z1K1": "Z11",
         "Z11K1": "en",
-        "Z11K2": "lambda"
+        "Z11K2": "boolean"
       },
       {
         "Z1K1": "Z11",
         "Z11K1": "de",
-        "Z11K2": "Lambda"
+        "Z11K2": "Boolescher_Wert"
       }
     ]
   }
