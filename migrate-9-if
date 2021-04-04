@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Change the “if” function from Z31 to Z802.
+
+sed -i 's/"Z31\(["K]\)/"Z802\1/g' eneyj/data/Z*.json
+mv eneyj/data/Z31.json eneyj/data/Z802.json
